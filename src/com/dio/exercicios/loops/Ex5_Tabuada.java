@@ -24,6 +24,7 @@ public class Ex5_Tabuada {
         System.out.println("Favor digite a Tabuada desejada: ");
         n = scan.nextInt();
 
+        System.out.println("Tabuada de " + n);
         for (int i = 1;i <= 10;i++)
             System.out.println(n + " x " + i +" = " + i * n);
     }
